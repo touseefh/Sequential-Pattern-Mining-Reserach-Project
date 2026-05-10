@@ -223,4 +223,4 @@ Create bundles based on high-support patterns — e.g., a **"Decorative Essentia
 
 ---
 
-*This research was conducted as part of coursework at Air University Islamabad, Department of Computer Science.*
+*This research was conducted as part of coursework of data mining & warehousing.*
