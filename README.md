@@ -14,7 +14,6 @@
 - [Business Implications](#business-implications)
 - [Limitations](#limitations)
 - [Tech Stack](#tech-stack)
-- [How to Run](#how-to-run)
 - [Future Work](#future-work)
 - [References](#references)
 
@@ -202,49 +201,6 @@ Create bundles based on high-support patterns — e.g., a **"Decorative Essentia
 | `networkx` | Sequential purchase network visualization |
 
 ---
-
-## How to Run
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/<your-username>/spm-customer-purchase-dynamics.git
-cd spm-customer-purchase-dynamics
-
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Download the dataset
-# Visit: https://doi.org/10.24432/C5CG6D
-# Place the downloaded file in: data/online_retail_II.xlsx
-
-# 4. Run preprocessing
-python src/preprocess.py
-
-# 5. Generate customer sequences
-python src/sequence_generation.py
-
-# 6. Run PrefixSpan mining
-python src/prefixspan_mining.py
-
-# 7. Run customer segmentation
-python src/segmentation.py
-
-# 8. Generate visualizations
-python src/visualize.py
-```
-
-### Requirements (`requirements.txt`)
-```
-pandas
-numpy
-matplotlib
-seaborn
-prefixspan
-scikit-learn
-networkx
-openpyxl
-```
-
 ---
 
 ## Future Work
